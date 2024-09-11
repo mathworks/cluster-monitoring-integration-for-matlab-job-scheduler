@@ -1,0 +1,180 @@
+groups:
+
+#############
+### Usage ###
+#############
+
+- name: mjs-usage
+  rules:
+
+  # Cluster hasn't been used (no busy workers AND no workers transitioned to busy) for 7 days
+  - alert: Low cluster usage
+    expr: (((sum by (instance) (mjs_worker_state_transitions_total{to="busy"}) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))) - (sum by (instance) (mjs_worker_state_transitions_total{from="busy"}) or 0 * sum by (instance) (last_over_time(mjs_up[999d])))) == 0) and ((sum by (instance) (last_over_time(mjs_worker_state_transitions_total{to="busy"}[999d]) - ((last_over_time(mjs_worker_state_transitions_total{to="busy"}[999d] offset 1m)) or 0 * last_over_time(mjs_worker_state_transitions_total{to="busy"}[999d]))) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))) == 0)
+    for: 7d
+    labels:
+      severity: low
+    annotations:
+      description: "The cluster has not been running any jobs in the last 7 days. This period of low cluster usage might indicate that the cluster is no longer being used and, if possible, its resources can be released."
+
+  # License failure on a MATLAB worker has been detected in the last 7 days
+  - alert: License failures detected
+    expr: sum by (instance,user) (last_over_time(mjs_license_errors_total[999d]) - ((last_over_time(mjs_license_errors_total[999d] offset 7d)) or 0 * last_over_time(mjs_license_errors_total[999d]))) > 0
+    labels:
+      severity: high
+    annotations:
+      description: "{{ $value }} license failure(s) for user {{ $labels.user }} have been detected in the last 7 days. License failures are typically caused by a misconfigured cluster. If license failures persist, contact MathWorks Technical Support.\n\nSee Usage > License Failures for more information about when the failure(s) occurred."
+
+  # Task has failed in the last 7 days
+  - alert: Task failures detected
+    expr: sum by (instance,user) (last_over_time(mjs_work_unit_events_total{type="task",event="failed"}[999d]) - ((last_over_time(mjs_work_unit_events_total{type="task",event="failed"}[999d] offset 7d)) or 0 * last_over_time(mjs_work_unit_events_total{type="task",event="failed"}[999d]))) > 0
+    labels:
+      severity: low
+    annotations:
+      description: "{{ $value }} task(s) for user {{ $labels.user }} have failed in the last 7 days. Task failures are typically caused by issues with the cluster rather than the user's code. If task failures persist, this might indicate a problem with the cluster setup.\n\nSee Usage > Task Events for more information about when the failure(s) occurred."
+
+###############
+### Process ###
+###############
+
+- name: mjs-process
+  rules:
+
+  # Job manager is unreachable (presumably down) for 5 minutes
+  - alert: Job manager down
+    expr: sum by(instance) (up) == 0
+    for: 5m
+    labels:
+      severity: high
+    annotations:
+      description: "Job manager on headnode {{ $labels.instance }} has been down for more than 5 minutes.\n\nSee Process > Status for more information about when the job manager went down."
+
+  # Job manager has been restarted in the last 7 days
+  - alert: Cluster restarts detected
+    expr: sum by (instance) (last_over_time(mjs_up[999d])) - (sum by (instance) (last_over_time(mjs_up[999d] offset 7d)) or (1 + 0 * sum by (instance) (last_over_time(mjs_up[999d])))) > 0
+    labels:
+      severity: medium
+    annotations:
+      description: "{{ $value }} cluster restart(s) have occurred in the last 7 days. Cluster restarts are typically caused by the headnode machine being restarted. If unexplained cluster restarts persist, contact MathWorks Technical Support.\n\nSee Process > Job Manager Events for more information about when the restart(s) occurred."
+
+ # Job manager is running low on memory (<20% of maximum memory remaining) for 5 minutes
+  - alert: Low job manager memory
+    expr: sum by(instance) (mjs_process_memory{type="used"}) > 0.8 * sum by(instance) (mjs_process_memory{type="max"})
+    for: 5m
+    labels:
+      severity: medium
+    annotations:
+      description: "The job manager process is running out of memory. If this persists, increase JOB_MANAGER_MAX_MEMORY in the mjs_def file and restart the cluster with the '-clean' flag.\n\nSee Process > Job Manager Memory for more information on the job manager memory consumption over time."
+
+#################
+### Scheduler ###
+#################
+
+- name: mjs-scheduler
+  rules:
+ 
+  # Job manager is paused for 5 minutes
+  - alert: Job manager paused
+    expr: sum by(instance) (mjs_running) == 0
+    for: 5m
+    labels:
+      severity: high
+    annotations:
+      description: "Job manager on headnode {{ $labels.instance }} is paused. No further jobs will run until the job manager is resumed.\n\nSee Scheduler > Scheduler Events for more information about when the scheduler was paused."
+
+  # Non-resizable cluster has no workers (busy or idle) for 5 minutes
+  - alert: Non-resizable cluster with no workers
+    expr: (sum by (instance) (mjs_resizable) == 0) and (((sum by (instance) (mjs_worker_state_transitions_total{to=~"busy|idle"}) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))) - (sum by (instance) (mjs_worker_state_transitions_total{from=~"busy|idle"}) or 0 * sum by (instance) (last_over_time(mjs_up[999d])))) == 0)
+    for: 5m
+    labels:
+      severity: high
+    annotations:
+      description: "The job manager has no workers registered with it and does not have resizing enabled. Use the 'startworker' command to add workers to the cluster so that it can run jobs."
+
+  # Resizable cluster that requires more workers (desired workers > busy/idle workers) is not growing (no workers have been added) for 1 hour
+  - alert: Resizable cluster not growing
+    expr: (sum by (instance) (mjs_resizable) == 1) and (sum by (instance) (mjs_workers{type="desired"}) > ((sum by (instance) (mjs_worker_state_transitions_total{to=~"busy|idle"}) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))) - (sum by (instance) (mjs_worker_state_transitions_total{from=~"busy|idle"}) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))))) and ((sum by (instance) (last_over_time(mjs_scheduler_events_total{type="worker_added"}[999d]) - ((last_over_time(mjs_scheduler_events_total{type="worker_added"}[999d] offset 1m)) or 0 * last_over_time(mjs_scheduler_events_total{type="worker_added"}[999d]))) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))) == 0)
+    for: 1h
+    labels:
+      severity: high
+    annotations:
+      description: "The resizable cluster has been requesting more workers for the last 1 hour but none of those workers have been provided. If this persists, the queue might become blocked and no more jobs will run. Check that the resizer is running properly.\n\nSee Scheduler > Worker Pool for more information on when additional workers were requested."
+
+  # Resizable cluster with excess workers (desired workers < busy/idle workers) is not shrinking (no workers have been removed) for 1 hour
+  - alert: Resizable cluster not shrinking
+    expr: (sum by (instance) (mjs_resizable) == 1) and (sum by (instance) (mjs_workers{type="desired"}) < ((sum by (instance) (mjs_worker_state_transitions_total{to=~"busy|idle"}) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))) - (sum by (instance) (mjs_worker_state_transitions_total{from=~"busy|idle"}) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))))) and ((sum by (instance) (last_over_time(mjs_scheduler_events_total{type="worker_removed"}[999d]) - ((last_over_time(mjs_scheduler_events_total{type="worker_removed"}[999d] offset 1m)) or 0 * last_over_time(mjs_scheduler_events_total{type="worker_removed"}[999d]))) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))) == 0)
+    for: 1h
+    labels:
+      severity: medium
+    annotations:
+      description: "The resizable cluster has had more workers than needed for the last 1 hour. If this persists, cluster resources might be being kept around unnecessarily. Check that the resizer is running properly.\n\nSee Scheduler > Worker Pool for more information on when workers were no longer needed."
+
+  # Job manager queue has a job/task that is blocked (job/task in the queue with no dequeued events) for 1 day
+  - alert: Queue blocked
+    expr: (sum by (instance) (mjs_blocked_queue_item_user) > 0) and ((sum by (instance)(last_over_time(mjs_scheduler_events_total{type="item_dequeued"}[999d]) - ((last_over_time(mjs_scheduler_events_total{type="item_dequeued"}[999d] offset 1m)) or 0 * last_over_time(mjs_scheduler_events_total{type="item_dequeued"}[999d]))) or 0 * sum by (instance) (last_over_time(mjs_up[999d]))) == 0)
+    for: 1d
+    labels:
+      severity: medium
+    annotations:
+      description: "No items in the queue have started running in the last 24 hours. It is likely that the queue is blocked by a long-running job or that the next job in the queue requires many workers.\n\nSee Usage > Jobs for more information on the currently running jobs. See Scheduler > Next Queue Item for more information on the item in the queue that is blocked."
+
+  # Scheduler error has occcurred in the last 7 days
+  - alert: Scheduler errors detected
+    expr: sum by (instance,type) (last_over_time(mjs_scheduler_errors_total[999d]) - ((last_over_time(mjs_scheduler_errors_total[999d] offset 7d)) or 0 * last_over_time(mjs_scheduler_errors_total[999d]))) > 0
+    labels:
+      severity: low
+    annotations:
+      description: "{{ $value }} {{ $labels.type }} error(s) have occurred in the last 7 days. Scheduler errors are typically caused by internal cluster problems and might cause jobs and/or tasks to fail. If scheduler errors persist, contact MathWorks Technical Support.\n\nSee Scheduler > Scheduler Errors for more information about when the error(s) occurred."
+
+###############
+### Storage ###
+###############
+
+- name: mjs-storage
+  rules:
+
+  # Job manager is running low on disk space (<20% of all storage available remaining) for 5 minutes
+  - alert: Low storage space
+    expr: (sum by (instance) (mjs_storage{type="available"}) / (sum by (instance) (mjs_storage))) < 0.2
+    for: 5m
+    labels:
+      severity: medium
+    annotations:
+      description: "Less than 20% of job manager storage space is free. If storage space runs out, the cluster will go down and data might become corrupted. Free up storage space by having users delete their old jobs.\n\nSee Cluster > Storage for which users are using the most disk space. See Storage > Job and Task Data for which types of data are taking up the most space."
+
+  # Storage error has occcurred in the last 7 days
+  - alert: Storage errors detected
+    expr: sum by (instance,type) (last_over_time(mjs_storage_errors_total[999d]) - ((last_over_time(mjs_storage_errors_total[999d] offset 7d)) or 0 * last_over_time(mjs_storage_errors_total[999d]))) > 0
+    labels:
+      severity: medium
+    annotations:
+      description: "{{ $value }} {{ $labels.type }} error(s) have occurred in the last 7 days. Storage errors are caused by problems saving or loading data to the job manager's CHECKPOINTBASE (as defined in the mjs_def file) and can cause data loss. If storage errors persist, check the integrity of the disk on which the job manager's CHECKPOINTBASE is stored.\n\nSee Storage > Storage Errors for more information about when the error(s) occurred."
+
+#####################
+### Communication ###
+#####################
+
+- name: mjs-communication
+  rules:
+
+  # Network error has occcurred in the last 7 days
+  - alert: Network errors detected
+    expr: sum by (instance,type) (last_over_time(mjs_network_errors_total[999d]) - ((last_over_time(mjs_network_errors_total[999d] offset 7d)) or 0 * last_over_time(mjs_network_errors_total[999d]))) > 0
+    labels:
+      severity: low
+    annotations:
+      description: "{{ $value }} {{ $labels.type }} error(s) have occurred in the last 7 days. Network errors are typically caused by network connection issues. If network errors persist, check the integrity of the cluster's network and/or the network(s) that MATLAB clients use to connect to the cluster.\n\nSee Communication > Network Errors for more information about when the error(s) occurred."
+
+################
+### Security ###
+################
+
+- name: mjs-security
+  rules:
+
+  # User has tried and failed to authenticate many (>5) times in the last 7 days
+  - alert: Many failed user authentications
+    expr: sum by (instance,user) (last_over_time(mjs_security_errors_total{type=~"authentication|ldap_authentication"}[999d]) - ((last_over_time(mjs_security_errors_total{type=~"authentication|ldap_authentication"}[999d] offset 7d)) or 0 * last_over_time(mjs_security_errors_total{type=~"authentication|ldap_authentication"}[999d]))) > 5
+    labels:
+      severity: low
+    annotations:
+      description: "User {{ $labels.user }} has failed to access the cluster {{ $value }} times in the last 7 days due to invalid credentials. If this persists, the user might have forgotten their MJS credentials and need them to be reset.\n\nSee Security > Authentication Failures for more information about when the authentication failures occurred."
