@@ -88,7 +88,7 @@ From Grafana, navigate to the MJS dashboard to see live cluster monitoring data 
 
 ## License
 
-The license is available in the [LICENSE.md](LICENSE.md) file in this repository.
+The license is available in the [license.txt](license.txt) file in this repository.
 
 ## Community Support
 
