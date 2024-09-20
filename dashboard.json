@@ -116,7 +116,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": ""
+        "uid": "${datasource}"
       },
       "gridPos": {
         "h": 10,
@@ -139,7 +139,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "expr": "",
           "instant": false,
@@ -152,7 +152,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": ""
+        "uid": "${datasource}"
       },
       "gridPos": {
         "h": 10,
@@ -175,7 +175,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "expr": "",
           "instant": false,
@@ -201,7 +201,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": ""
+        "uid": "${datasource}"
       },
       "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
       "gridPos": {
@@ -234,7 +234,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": ""
+        "uid": "${datasource}"
       },
       "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
       "gridPos": {
@@ -267,7 +267,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": ""
+        "uid": "${datasource}"
       },
       "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
       "gridPos": {
@@ -310,7 +310,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -387,7 +387,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -404,7 +404,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -464,7 +464,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -481,7 +481,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -612,7 +612,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -625,7 +625,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -639,7 +639,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -657,7 +657,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -742,7 +742,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -755,7 +755,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -769,7 +769,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -783,7 +783,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -801,7 +801,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -948,7 +948,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -961,7 +961,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -979,7 +979,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -1036,7 +1036,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -1070,7 +1070,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -1214,7 +1214,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -1227,7 +1227,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -1245,7 +1245,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -1305,7 +1305,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -1322,7 +1322,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -1382,7 +1382,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -1413,7 +1413,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -1505,7 +1505,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_worker_state_transitions_total{instance=~\"$jobmanager\",to=\"busy\"}) - sum(mjs_worker_state_transitions_total{instance=~\"$jobmanager\",from=\"busy\"})) / clamp_min((sum(mjs_workers{instance=~\"$jobmanager\", type=\"max\"})) or ((sum(mjs_worker_state_transitions_total{instance=~\"$jobmanager\",to=~\"busy|idle\"}) - sum(mjs_worker_state_transitions_total{instance=~\"$jobmanager\",from=~\"busy|idle\"}))), 1) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -1521,7 +1521,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -1610,7 +1610,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",to=\"finished\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -1622,7 +1622,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",to=\"finished\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -1639,7 +1639,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -1770,7 +1770,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "# NOTE: Include any users that have checked out a license since the job manager started (up to that point in time) so that they don't first appear non-zero the first time they use a license. However, we still filter the user out if they are all 0 license use over the range\nclamp_max(sum by (user) (mjs_matlab_processes{instance=~\"$jobmanager\",user=~\"$user\"}), 200) or 0 * sum by (user) (mjs_users{instance=~\"$jobmanager\"})",
@@ -1782,7 +1782,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -1799,7 +1799,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -1932,7 +1932,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (user) ((1 * mjs_license_errors_total{instance=~\"$jobmanager\",user=~\"$user\"} or 0 * mjs_license_errors_total{instance=~\"$jobmanager\",user=~\"$user\"} offset $__interval + last_over_time(mjs_license_errors_total{instance=~\"$jobmanager\",user=~\"$user\"}[999d])) - (1 * mjs_license_errors_total{instance=~\"$jobmanager\",user=~\"$user\"} offset $__interval or 0 * mjs_license_errors_total{instance=~\"$jobmanager\",user=~\"$user\"}) or last_over_time(mjs_license_errors_total{instance=~\"$jobmanager\",user=~\"$user\"}[999d]) unless last_over_time(mjs_license_errors_total{instance=~\"$jobmanager\",user=~\"$user\"}[999d] offset $__interval)) or 0 * sum by (user) (mjs_users{instance=~\"$jobmanager\"})",
@@ -1944,7 +1944,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -1961,7 +1961,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -2048,7 +2048,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",to=\"pending\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",from=\"pending\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -2060,7 +2060,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",to=\"queued\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",from=\"queued\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -2073,7 +2073,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",to=\"running\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",from=\"running\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -2086,7 +2086,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",to=\"finished\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",from=\"finished\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -2103,7 +2103,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -2207,7 +2207,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",to=\"pending\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",from=\"pending\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -2219,7 +2219,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",to=\"queued\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",from=\"queued\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -2232,7 +2232,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",to=\"running\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",from=\"running\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -2245,7 +2245,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",to=\"finished\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_work_unit_state_transitions_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",from=\"finished\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -2262,7 +2262,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -2425,7 +2425,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -2443,7 +2443,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -2606,7 +2606,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -2624,7 +2624,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -2775,7 +2775,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -2793,7 +2793,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -2944,7 +2944,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -2962,7 +2962,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -3095,7 +3095,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"created\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"created\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"created\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"created\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"created\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"created\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"created\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3107,7 +3107,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"submitted\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"submitted\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"submitted\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"submitted\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"submitted\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"submitted\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"submitted\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3120,7 +3120,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"started\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"started\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"started\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"started\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"started\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"started\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"started\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3133,7 +3133,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"finished\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"finished\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"finished\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"finished\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"finished\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"finished\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"finished\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3146,7 +3146,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"errored\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"errored\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"errored\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"errored\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"errored\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"errored\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"errored\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3159,7 +3159,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"canceled\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"canceled\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"canceled\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"canceled\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"canceled\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"canceled\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"canceled\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3172,7 +3172,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"failed\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"failed\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"failed\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"failed\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"failed\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"failed\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"failed\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3185,7 +3185,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"restarted\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"restarted\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"restarted\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"restarted\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"restarted\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"restarted\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"restarted\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3198,7 +3198,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"deleted\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"deleted\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"deleted\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"deleted\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"deleted\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"deleted\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"job\",event=\"deleted\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3211,7 +3211,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3228,7 +3228,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -3361,7 +3361,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"created\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"created\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"created\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"created\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"created\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"created\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"created\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3373,7 +3373,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"submitted\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"submitted\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"submitted\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"submitted\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"submitted\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"submitted\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"submitted\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3386,7 +3386,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"started\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"started\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"started\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"started\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"started\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"started\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"started\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3399,7 +3399,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"finished\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"finished\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"finished\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"finished\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"finished\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"finished\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"finished\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3412,7 +3412,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"errored\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"errored\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"errored\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"errored\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"errored\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"errored\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"errored\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3425,7 +3425,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"canceled\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"canceled\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"canceled\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"canceled\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"canceled\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"canceled\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"canceled\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3438,7 +3438,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"failed\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"failed\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"failed\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"failed\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"failed\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"failed\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"failed\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3451,7 +3451,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"restarted\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"restarted\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"restarted\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"restarted\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"restarted\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"restarted\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"restarted\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3464,7 +3464,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"deleted\"} or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"deleted\"} offset $__interval + last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"deleted\"}[999d])) - (1 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"deleted\"} offset $__interval or 0 * mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"deleted\"}) or last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"deleted\"}[999d]) unless last_over_time(mjs_work_unit_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"task\",event=\"deleted\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3477,7 +3477,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -3508,7 +3508,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -3652,7 +3652,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -3665,7 +3665,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -3683,7 +3683,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -3763,7 +3763,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -3780,7 +3780,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -3860,7 +3860,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -3873,7 +3873,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -3887,7 +3887,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -3901,7 +3901,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -3933,7 +3933,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -3990,7 +3990,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -4007,7 +4007,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -4064,7 +4064,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -4081,7 +4081,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -4138,7 +4138,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -4155,7 +4155,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -4212,7 +4212,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -4229,7 +4229,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -4367,7 +4367,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_process_memory{type=\"max\", instance=~\"$jobmanager\"})",
@@ -4379,7 +4379,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_process_memory{type=\"total\", instance=~\"$jobmanager\"})",
@@ -4392,7 +4392,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_process_memory{type=\"used\", instance=~\"$jobmanager\"})",
@@ -4409,7 +4409,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -4485,7 +4485,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_up{instance=~\"$jobmanager\"}) or 0 * sum(last_over_time(mjs_up[999d]))",
@@ -4501,7 +4501,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -4558,7 +4558,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -4575,7 +4575,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -4707,7 +4707,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "((1 + 0 * sum(last_over_time(mjs_up{instance=~\"$jobmanager\"}[999d]))) - (1 + 0 * sum(last_over_time(mjs_up{instance=~\"$jobmanager\"}[999d] offset $__interval)) or 0 * sum(last_over_time(mjs_up{instance=~\"$jobmanager\"}[999d])))) and sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -4720,7 +4720,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "((sum(last_over_time(mjs_up{instance=~\"$jobmanager\"}[999d])) - 1) - ((sum(last_over_time(mjs_up{instance=~\"$jobmanager\"}[999d] offset $__interval)) - 1) or 0 * sum(last_over_time(mjs_up{instance=~\"$jobmanager\"}[999d])))) and sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -4733,7 +4733,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -4764,7 +4764,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -4817,7 +4817,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -4835,7 +4835,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -4902,7 +4902,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -4920,7 +4920,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -5110,7 +5110,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -5124,7 +5124,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -5139,7 +5139,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -5154,7 +5154,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -5169,7 +5169,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -5184,7 +5184,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -5199,7 +5199,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -5355,7 +5355,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -5528,7 +5528,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "# NOTE: Leave out default value of 0 so that if the cluster is non-resizable, no line is shown\nsum(mjs_workers{type=\"max\", instance=~\"$jobmanager\"})",
@@ -5540,7 +5540,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "# NOTE: Leave out default value of 0 so that if the cluster is non-resizable, no line is shown\nsum(mjs_workers{type=\"desired\", instance=~\"$jobmanager\"})",
@@ -5553,7 +5553,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "((sum(mjs_worker_state_transitions_total{instance=~\"$jobmanager\",to=~\"busy|idle\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_worker_state_transitions_total{instance=~\"$jobmanager\",from=~\"busy|idle\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})))",
@@ -5566,7 +5566,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "(sum(mjs_worker_state_transitions_total{instance=~\"$jobmanager\",to=\"busy\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})) - (sum(mjs_worker_state_transitions_total{instance=~\"$jobmanager\",from=\"busy\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"}))",
@@ -5583,7 +5583,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -5673,7 +5673,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_queue{instance=~\"$jobmanager\",user=~\"$user\",type=\"communicating_job\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -5685,7 +5685,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_queue{instance=~\"$jobmanager\",user=~\"$user\",type=\"independent_task\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -5702,7 +5702,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -5792,7 +5792,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"schedule_processed\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -5808,7 +5808,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -5994,7 +5994,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -6012,7 +6012,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -6102,7 +6102,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_task_dispatches_total{instance=~\"$jobmanager\",user=~\"$user\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6118,7 +6118,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "For period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -6304,7 +6304,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -6322,7 +6322,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -6454,7 +6454,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_added\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_added\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_added\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_added\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_added\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_added\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_added\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6466,7 +6466,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_busy\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_busy\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_busy\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_busy\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_busy\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_busy\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_busy\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6479,7 +6479,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_idle\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_idle\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_idle\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_idle\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_idle\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_idle\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_idle\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6492,7 +6492,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_removed\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_removed\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_removed\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_removed\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_removed\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_removed\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"worker_removed\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6505,7 +6505,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_queued\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_queued\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_queued\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_queued\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_queued\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_queued\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_queued\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6518,7 +6518,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_dequeued\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_dequeued\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_dequeued\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_dequeued\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_dequeued\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_dequeued\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"item_dequeued\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6531,7 +6531,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_promoted\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_promoted\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_promoted\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_promoted\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_promoted\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_promoted\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_promoted\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6544,7 +6544,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_demoted\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_demoted\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_demoted\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_demoted\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_demoted\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_demoted\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"job_demoted\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6557,7 +6557,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"schedule_processed\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"schedule_processed\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"schedule_processed\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"schedule_processed\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"schedule_processed\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"schedule_processed\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"schedule_processed\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6570,7 +6570,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_paused\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_paused\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_paused\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_paused\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_paused\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_paused\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_paused\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6583,7 +6583,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_resumed\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_resumed\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_resumed\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_resumed\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_resumed\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_resumed\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"scheduler_resumed\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6596,7 +6596,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"task_dispatched\"} or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"task_dispatched\"} offset $__interval + last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"task_dispatched\"}[999d])) - (1 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"task_dispatched\"} offset $__interval or 0 * mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"task_dispatched\"}) or last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"task_dispatched\"}[999d]) unless last_over_time(mjs_scheduler_events_total{instance=~\"$jobmanager\",type=\"task_dispatched\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6609,7 +6609,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6626,7 +6626,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -6758,7 +6758,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (type) ((1 * mjs_scheduler_errors_total{instance=~\"$jobmanager\"} or 0 * mjs_scheduler_errors_total{instance=~\"$jobmanager\"} offset $__interval + last_over_time(mjs_scheduler_errors_total{instance=~\"$jobmanager\"}[999d])) - (1 * mjs_scheduler_errors_total{instance=~\"$jobmanager\"} offset $__interval or 0 * mjs_scheduler_errors_total{instance=~\"$jobmanager\"}) or last_over_time(mjs_scheduler_errors_total{instance=~\"$jobmanager\"}[999d]) unless last_over_time(mjs_scheduler_errors_total{instance=~\"$jobmanager\"}[999d] offset $__interval))",
@@ -6770,7 +6770,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6801,7 +6801,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -6921,7 +6921,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_storage{instance=~\"$jobmanager\",type=\"database\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6933,7 +6933,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_storage{instance=~\"$jobmanager\",type=\"large_object_files\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6946,7 +6946,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_storage{instance=~\"$jobmanager\",type=\"job_history\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6959,7 +6959,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_storage{instance=~\"$jobmanager\",type=\"logs\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -6972,7 +6972,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum (mjs_storage{instance=~\"$jobmanager\",type=\"available\"})",
@@ -6989,7 +6989,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -7111,7 +7111,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"job_attached_files\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7123,7 +7123,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"job_data\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7136,7 +7136,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"job_file_value_store\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7149,7 +7149,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"task_function\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7162,7 +7162,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"task_input\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7175,7 +7175,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"task_output\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7188,7 +7188,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"task_diary\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7201,7 +7201,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"task_warnings\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7214,7 +7214,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_data{instance=~\"$jobmanager\",user=~\"$user\",type=\"other\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7231,7 +7231,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -7318,7 +7318,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_disk_activity_total{instance=~\"$jobmanager\",type=\"read\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7330,7 +7330,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_disk_activity_total{instance=~\"$jobmanager\",type=\"write\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7343,7 +7343,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_disk_activity_total{instance=~\"$jobmanager\",type=\"delete\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7360,7 +7360,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -7450,7 +7450,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_database_access_total{instance=~\"$jobmanager\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7466,7 +7466,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -7601,7 +7601,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (type) ((1 * mjs_database_access_total{instance=~\"$jobmanager\"} or 0 * mjs_database_access_total{instance=~\"$jobmanager\"} offset $__interval + last_over_time(mjs_database_access_total{instance=~\"$jobmanager\"}[999d])) - (1 * mjs_database_access_total{instance=~\"$jobmanager\"} offset $__interval or 0 * mjs_database_access_total{instance=~\"$jobmanager\"}) or last_over_time(mjs_database_access_total{instance=~\"$jobmanager\"}[999d]) unless last_over_time(mjs_database_access_total{instance=~\"$jobmanager\"}[999d] offset $__interval))",
@@ -7613,7 +7613,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7630,7 +7630,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -7763,7 +7763,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (type) ((1 * mjs_storage_errors_total{instance=~\"$jobmanager\"} or 0 * mjs_storage_errors_total{instance=~\"$jobmanager\"} offset $__interval + last_over_time(mjs_storage_errors_total{instance=~\"$jobmanager\"}[999d])) - (1 * mjs_storage_errors_total{instance=~\"$jobmanager\"} offset $__interval or 0 * mjs_storage_errors_total{instance=~\"$jobmanager\"}) or last_over_time(mjs_storage_errors_total{instance=~\"$jobmanager\"}[999d]) unless last_over_time(mjs_storage_errors_total{instance=~\"$jobmanager\"}[999d] offset $__interval))",
@@ -7775,7 +7775,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7792,7 +7792,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -7882,7 +7882,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_cache{instance=~\"$jobmanager\",type=\"job\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7894,7 +7894,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(mjs_work_unit_cache{instance=~\"$jobmanager\",type=\"task\"}) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -7911,7 +7911,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -8001,7 +8001,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(increase(mjs_work_unit_cache_queries_total{instance=~\"$jobmanager\",type=\"job\",result=\"failure\"}[$__rate_interval])) / clamp_min(sum(increase(mjs_work_unit_cache_queries_total{instance=~\"$jobmanager\",type=\"job\"}[$__rate_interval])),1) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8013,7 +8013,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(increase(mjs_work_unit_cache_queries_total{instance=~\"$jobmanager\",type=\"task\",result=\"failure\"}[$__rate_interval])) / clamp_min(sum(increase(mjs_work_unit_cache_queries_total{instance=~\"$jobmanager\",type=\"task\"}[$__rate_interval])),1) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8044,7 +8044,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -8130,7 +8130,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_data_transfer_total{instance=~\"$jobmanager\",type=\"upload\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8142,7 +8142,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_data_transfer_total{instance=~\"$jobmanager\",type=\"download\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8159,7 +8159,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -8244,7 +8244,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"incoming\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8256,7 +8256,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum(rate(mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"outgoing\"}[$__rate_interval])) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8273,7 +8273,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -8407,7 +8407,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (method) ((1 * mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"incoming\"} or 0 * mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"incoming\"} offset $__interval + last_over_time(mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"incoming\"}[999d])) - (1 * mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"incoming\"} offset $__interval or 0 * mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"incoming\"}) or last_over_time(mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"incoming\"}[999d]) unless last_over_time(mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"incoming\"}[999d] offset $__interval))",
@@ -8419,7 +8419,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8436,7 +8436,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -8570,7 +8570,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (method) ((1 * mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"outgoing\"} or 0 * mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"outgoing\"} offset $__interval + last_over_time(mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"outgoing\"}[999d])) - (1 * mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"outgoing\"} offset $__interval or 0 * mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"outgoing\"}) or last_over_time(mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"outgoing\"}[999d]) unless last_over_time(mjs_network_calls_total{instance=~\"$jobmanager\",direction=\"outgoing\"}[999d] offset $__interval))",
@@ -8582,7 +8582,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8599,7 +8599,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -8731,7 +8731,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (type) ((1 * mjs_network_errors_total{instance=~\"$jobmanager\"} or 0 * mjs_network_errors_total{instance=~\"$jobmanager\"} offset $__interval + last_over_time(mjs_network_errors_total{instance=~\"$jobmanager\"}[999d])) - (1 * mjs_network_errors_total{instance=~\"$jobmanager\"} offset $__interval or 0 * mjs_network_errors_total{instance=~\"$jobmanager\"}) or last_over_time(mjs_network_errors_total{instance=~\"$jobmanager\"}[999d]) unless last_over_time(mjs_network_errors_total{instance=~\"$jobmanager\"}[999d] offset $__interval))",
@@ -8743,7 +8743,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -8774,7 +8774,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -8836,7 +8836,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -8854,7 +8854,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -8907,7 +8907,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -8925,7 +8925,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -8991,7 +8991,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -9009,7 +9009,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -9141,7 +9141,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"} or 0 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"} offset $__interval + last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"}[999d])) - (1 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"} offset $__interval or 0 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"}) or last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"}[999d]) unless last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -9153,7 +9153,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"authentication\"} or 0 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"authentication\"} offset $__interval + last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"authentication\"}[999d])) - (1 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"authentication\"} offset $__interval or 0 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"authentication\"}) or last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"authentication\"}[999d]) unless last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"authentication\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -9166,7 +9166,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"ldap_authentication\"} or 0 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"ldap_authentication\"} offset $__interval + last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"ldap_authentication\"}[999d])) - (1 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"ldap_authentication\"} offset $__interval or 0 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"ldap_authentication\"}) or last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"ldap_authentication\"}[999d]) unless last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"ldap_authentication\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -9179,7 +9179,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum((1 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"password_change\"} or 0 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"password_change\"} offset $__interval + last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"password_change\"}[999d])) - (1 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"password_change\"} offset $__interval or 0 * mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"password_change\"}) or last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"password_change\"}[999d]) unless last_over_time(mjs_security_events_total{instance=~\"$jobmanager\",user=~\"$user\",type=\"password_change\"}[999d] offset $__interval)) or 0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -9192,7 +9192,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -9209,7 +9209,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -9273,7 +9273,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -9291,7 +9291,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -9355,7 +9355,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -9373,7 +9373,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "As of ${__to:date:YYYY-MM-DD HH:mm:ss}",
           "fieldConfig": {
@@ -9423,7 +9423,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "exemplar": false,
@@ -9441,7 +9441,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -9573,7 +9573,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (user) ((1 * mjs_authentication_failures_total{instance=~\"$jobmanager\",user=~\"$user\",type=~\"authentication|ldap_authentication\"} or 0 * mjs_authentication_failures_total{instance=~\"$jobmanager\",user=~\"$user\",type=~\"authentication|ldap_authentication\"} offset $__interval + last_over_time(mjs_authentication_failures_total{instance=~\"$jobmanager\",user=~\"$user\",type=~\"authentication|ldap_authentication\"}[999d])) - (1 * mjs_authentication_failures_total{instance=~\"$jobmanager\",user=~\"$user\",type=~\"authentication|ldap_authentication\"} offset $__interval or 0 * mjs_authentication_failures_total{instance=~\"$jobmanager\",user=~\"$user\",type=~\"authentication|ldap_authentication\"}) or last_over_time(mjs_authentication_failures_total{instance=~\"$jobmanager\",user=~\"$user\",type=~\"authentication|ldap_authentication\"}[999d]) unless last_over_time(mjs_authentication_failures_total{instance=~\"$jobmanager\",user=~\"$user\",type=~\"authentication|ldap_authentication\"}[999d] offset $__interval)) or 0 * sum by (user) (mjs_users{instance=~\"$jobmanager\"})",
@@ -9585,7 +9585,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -9602,7 +9602,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": ""
+            "uid": "${datasource}"
           },
           "description": "Over period [${__from:date:YYYY-MM-DD HH:mm:ss} to ${__to:date:YYYY-MM-DD HH:mm:ss}]",
           "fieldConfig": {
@@ -9734,7 +9734,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "sum by (user) ((1 * mjs_authorization_failures{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"} or 0 * mjs_authorization_failures{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"} offset $__interval + last_over_time(mjs_authorization_failures{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"}[999d])) - (1 * mjs_authorization_failures{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"} offset $__interval or 0 * mjs_authorization_failures{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"}) or last_over_time(mjs_authorization_failures{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"}[999d]) unless last_over_time(mjs_authorization_failures{instance=~\"$jobmanager\",user=~\"$user\",type=\"registration\"}[999d] offset $__interval)) or 0 * sum by (user) (mjs_users{instance=~\"$jobmanager\"})",
@@ -9746,7 +9746,7 @@
             {
               "datasource": {
                 "type": "prometheus",
-                "uid": ""
+                "uid": "${datasource}"
               },
               "editorMode": "code",
               "expr": "0 * sum(mjs_up{instance=~\"$jobmanager\"})",
@@ -9776,7 +9776,7 @@
           "text": "default",
           "value": "default"
         },
-        "hide": 2,
+        "hide": 0,
         "includeAll": false,
         "label": "Datasource",
         "multi": false,
@@ -9793,7 +9793,7 @@
         "current": {},
         "datasource": {
           "type": "prometheus",
-          "uid": ""
+          "uid": "${datasource}"
         },
         "definition": "label_values(up{job=\"mjs\"},instance)",
         "hide": 0,
@@ -9817,7 +9817,7 @@
         "current": {},
         "datasource": {
           "type": "prometheus",
-          "uid": ""
+          "uid": "${datasource}"
         },
         "definition": "label_values(mjs_users,user)",
         "hide": 0,
