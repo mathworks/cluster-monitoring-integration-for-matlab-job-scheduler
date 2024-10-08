@@ -173,7 +173,7 @@ groups:
 
   # User has tried and failed to authenticate many (>5) times in the last 7 days
   - alert: Many failed user authentications
-    expr: sum by (instance,user) (last_over_time(mjs_security_errors_total{type=~"authentication|ldap_authentication"}[999d]) - ((last_over_time(mjs_security_errors_total{type=~"authentication|ldap_authentication"}[999d] offset 7d)) or 0 * last_over_time(mjs_security_errors_total{type=~"authentication|ldap_authentication"}[999d]))) > 5
+    expr: sum by (instance,user) (last_over_time(mjs_authentication_failures_total{type=~"authentication|ldap_authentication"}[999d]) - ((last_over_time(mjs_authentication_failures_total{type=~"authentication|ldap_authentication"}[999d] offset 7d)) or 0 * last_over_time(mjs_authentication_failures_total{type=~"authentication|ldap_authentication"}[999d]))) > 5
     labels:
       severity: low
     annotations:
