@@ -33,7 +33,7 @@ scrape_configs:
   - job_name: 'mjs'
     static_configs:
       - targets: ['<job-manager-hostname>:<metrics-port>']
-    scrape_interval: 5s
+    scrape_interval: 1m
 
     # The following block is required only if you have configured MATLAB Job Scheduler to export encrypted metrics
     scheme: https
@@ -72,7 +72,7 @@ prometheus --config.file=prometheus.yml
 
 Download, install, and start the latest version of Grafana. For more details, see [Set up Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/) on the Grafana website. To sign in to Grafana, open a web browser to port `3000` on the local host using the URL `http://localhost:3000`. The default username and password for Grafana is `admin`.
 
-From Grafana, add a new Prometheus data source. The default URL for the Prometheus server is `http://localhost:9090`. For more details, see [Configure Prometheus](https://grafana.com/docs/grafana/latest/datasources/prometheus/configure-prometheus-data-source/) on the Grafana website.
+From Grafana, add a new Prometheus data source. The default URL for the Prometheus server is `http://localhost:9090`. For more details, see [Configure Prometheus](https://grafana.com/docs/grafana/latest/datasources/prometheus/configure/) on the Grafana website.
 
 Import the [dashboard.json](dashboard.json) file provided in this repository into Grafana. For more details, see [Import dashboards](https://grafana.com/docs/grafana/latest/dashboards/build-dashboards/import-dashboards/) on the Grafana website.
 
